@@ -1,0 +1,62 @@
+body{
+    text-align: center;
+    justify-content: center;
+    background-color: #ff6700;
+}
+h1{
+    color:#ebebeb;
+    text-align: center;
+}
+H3{
+    COLOR:#ebebeb;
+}
+.container{
+    
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap:1.5vmin;
+}
+.chance{
+    height: 90px;
+    width: 120px;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin-top: 10px;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    background-color: #c0c0c0;
+    color:#3a6ea5;
+    border-radius: 10px;
+    font-size: 8vmin;
+    cursor: pointer;
+    box-shadow: 1px 1px 13px black;
+    
+}
+button{
+    
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #f6bd60;
+}
+.hide{
+    display: none;
+}
+.winnercon{
+    color:#004e98;
+}
